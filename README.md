@@ -2,6 +2,8 @@
 
 Context, cost, and quota at a glance.
 
+![Claude Code status line](screenshot.png)
+
 ```
 health-service  plat-893  +822 -291  |  Opus 4.6 1M  * 20%  |  @1h21m  12k^ 131k v  $18.65  |  5h * 44%  3h40m  7d * 11%
 '-----------v-----------'  '------v------'  '--------v--------'  '--------v--------'
@@ -31,6 +33,3 @@ curl -fsSL https://raw.githubusercontent.com/membranehq/claude-code-statusline/m
 
 Requires `curl` and `jq`.
 
-## Screenshot
-
-![Claude Code status line](screenshot.png)
