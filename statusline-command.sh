@@ -9,6 +9,12 @@
 #   path  branch  +N -N  │  Opus 4.6 1M  ● 7%  │  ⏱24m  451⇡ 31k⇣  $2.59  │  5h ● 40%  3h44m  7d ● 11%
 #
 if [ "$1" = "--install" ]; then
+  for cmd in curl jq; do
+    if ! command -v "$cmd" >/dev/null 2>&1; then
+      echo "Error: $cmd is required but not found. Please install it first." >&2
+      exit 1
+    fi
+  done
   SCRIPT_URL="https://raw.githubusercontent.com/membranehq/claude-code-statusline/main/statusline-command.sh"
   DEST="$HOME/.claude/statusline-command.sh"
   SETTINGS="$HOME/.claude/settings.json"
