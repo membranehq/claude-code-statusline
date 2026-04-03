@@ -10,8 +10,6 @@ Context, cost, and quota at a glance.
 curl -fsSL https://raw.githubusercontent.com/membranehq/claude-code-statusline/main/statusline-command.sh | sh -s -- --install
 ```
 
-Requires `curl` and `jq`. Takes effect on the next Claude Code session.
-
 ## What you get
 
 ```
