@@ -3,7 +3,7 @@
 # Claude Code status line — context, cost, and quota at a glance.
 #
 # Install:
-#   curl -fsSL https://raw.githubusercontent.com/membranehq/claude-code-statusline/main/statusline-command.sh | sh -s -- --install
+#   curl -fsSL https://raw.githubusercontent.com/mhagmajer/claude-code-statusline/main/statusline-command.sh | sh -s -- --install
 #
 # Groups: Where | Engine | Activity | Quota
 #   path  branch  +N -N  │  Opus 4.6 1M  ● 7%  │  ⏱24m  451⇡ 31k⇣  $2.59  │  5h ● 40%  3h44m  7d ● 11%
@@ -15,7 +15,7 @@ if [ "$1" = "--install" ]; then
       exit 1
     fi
   done
-  SCRIPT_URL="https://raw.githubusercontent.com/membranehq/claude-code-statusline/main/statusline-command.sh"
+  SCRIPT_URL="https://raw.githubusercontent.com/mhagmajer/claude-code-statusline/main/statusline-command.sh"
   DEST="$HOME/.claude/statusline-command.sh"
   SETTINGS="$HOME/.claude/settings.json"
   mkdir -p "$HOME/.claude"

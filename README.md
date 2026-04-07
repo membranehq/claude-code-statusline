@@ -7,7 +7,7 @@ Context, cost, and quota at a glance.
 ## Install
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/membranehq/claude-code-statusline/main/statusline-command.sh | sh -s -- --install
+curl -fsSL https://raw.githubusercontent.com/mhagmajer/claude-code-statusline/main/statusline-command.sh | sh -s -- --install
 ```
 
 ## What you get
